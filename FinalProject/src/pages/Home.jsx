@@ -78,7 +78,7 @@ function Home() {
     <div className="max-w-6xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-center mb-6">🎬 Movie Recommendation Forum</h1>
 
-      {/* 🔍 Search & Sort Controls */}
+      {/*Search & Sort Controls */}
       <div className="search-filter-wrapper">
         <input
           type="text"

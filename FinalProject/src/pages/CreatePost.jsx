@@ -67,7 +67,7 @@ function CreatePost() {
       return;
     }
 
-    // ✅ Validate Imgur GIF URL
+    //Validate Imgur GIF URL
     if (imageUrl && !imgurRegex.test(imageUrl)) {
       alert("Please provide a valid Imgur GIF URL (e.g. https://i.imgur.com/abcd123.gif)");
       return;
